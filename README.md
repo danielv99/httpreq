@@ -1,12 +1,18 @@
 httpreq
 =======
 
-HTTPreq - HTTP User Benchmark
+HTTPreq - Simple Python tool to simulate HTTP requests.
 
 How to use
 ----------
 
-./httpreq -A -f <your_access.log file>
+Analyze you logfile
+^^^^^^^^^^^^^^^^^^^
 
-./httpreq -B -f urls.txt -H <hostname>
+ ./httpreq -A -f <your_access.log file>
+
+Benchmark your Site
+^^^^^^^^^^^^^^^^^^^
+
+ ./httpreq -B -f urls.txt -H <hostname>
 
