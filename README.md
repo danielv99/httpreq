@@ -7,12 +7,16 @@ How to use
 ----------
 
 Analyze you logfile
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
- ./httpreq -A -f <your_access.log file>
+<code>
+ ./httpreq -A -f your_access.log file
+</code>
+
 
 Benchmark your Site
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
- ./httpreq -B -f urls.txt -H <hostname>
-
+<code>
+ ./httpreq -B -f urls.txt -H hostname
+</code>
