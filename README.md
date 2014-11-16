@@ -1,12 +1,11 @@
-# HTTPreq
-Simple Python tool to simulate HTTP requests.
+# Simple Python tool to simulate HTTP requests
 
 Analyze you logfile:
-```shell
+```bash
 $ httpreq -A -f your_access.log file
 ```
 
 Benchmark your Site:
-```shell
+```bash
 $ httpreq -B -f urls.txt -H hostname
 ```
